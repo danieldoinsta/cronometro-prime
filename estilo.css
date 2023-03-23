@@ -1,0 +1,56 @@
+@charset "UFT-8";
+
+body{
+    background-image: url(trans.gif);
+    display: flex;
+    height: 94vh;
+    background-color: rgb(10, 31, 66);
+}
+
+h1 {
+    color: #f6f5f5 ;
+    font-family: "Orbitron", sans-serif;
+    font-size: 40px;
+    margin: 40px;
+}
+
+h1:hover {
+    background-color: rgb(25, 134, 230);
+}
+
+button {
+    cursor: pointer;
+    color: rgb(222, 16, 16);
+    margin: 20px;
+    font-size: 30px;
+}
+
+p {
+    color: aliceblue;
+    font-size: 35px;
+    margin: 170px;
+    box-shadow: none;
+}
+
+.cronometro {
+    color: rgb(25, 134, 230);
+    font-family: "Orbitron", sans-serif;
+    color: rgb(25, 134, 230);
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer{
+    display:block;
+    position: fixed;
+    bottom: 0vh;
+    left: 0%;
+    width: 100%;
+    background-color:#a3c9a7;
+    text-align: center;
+}
+
+footer:hover {
+    background-color: rgb(189, 91, 97);
+}
